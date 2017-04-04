@@ -1,5 +1,5 @@
 CSV to Confluence
-
+-----------------
 A simple python script for converting CSV files to Confluence Markup
 (For faster table editing)
 
