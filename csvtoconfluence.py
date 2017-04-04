@@ -5,7 +5,10 @@ import sys
 def main():
     '''
         csvtoconfluence converts a csv file to markup for confluence
-        usage: python
+        usage: python csvtoconfluence.py <csv>
+
+        Output will be a .txt file with cut/pastable text in markup for
+        confluence
     '''
     inputfile = sys.argv[1]
     outputname = inputfile.replace('.csv', '.txt')
